@@ -1,0 +1,33 @@
+.home{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	h1{
+		text-align: center;
+		margin-bottom: 20px;
+		font-size: 2rem;
+	}
+	p{
+		font-size: 1.2rem;
+		width: 60%;
+		text-align: center;
+		margin: 0 auto 20px;
+	}
+	.cta{
+		display: flex;
+		justify-content: center;
+	}
+	.contactBtn{
+		border: 0;
+		color: rgb(var(--background-start-rgb));
+		padding: 8px 20px;
+		border-radius: 5px;
+		font-size: 1.2rem;
+		transition: all 0.3s ease-in-out;
+		&:hover{
+			opacity: 0.8;
+		}
+	}
+}

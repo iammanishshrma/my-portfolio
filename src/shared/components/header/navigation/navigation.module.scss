@@ -1,0 +1,24 @@
+.nav{
+	display: flex;
+	justify-content: flex-end;
+	.navList{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		width: 40%;
+		.navItem{
+			.navBtn{
+				background: transparent;
+				border: 0;
+				font-family: inherit;
+				font-weight: 700;
+				font-size: 1rem;
+				transition: all 0.3s ease-in-out;
+				&:hover{
+					color: rgb(var(--highlight-color));
+				}
+			}
+		}
+	}
+}
